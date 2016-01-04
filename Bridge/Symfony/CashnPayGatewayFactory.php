@@ -4,7 +4,6 @@ namespace DivLooper\Payum\CashnPay\Bridge\Symfony;
 use Payum\Bundle\PayumBundle\DependencyInjection\Factory\Gateway\AbstractGatewayFactory;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 
-
 class CashnPayGatewayFactory extends AbstractGatewayFactory
 {
     /**
@@ -44,5 +43,4 @@ class CashnPayGatewayFactory extends AbstractGatewayFactory
     {
         return 'div-looper/payum-cashnpay';
     }
-
 }
